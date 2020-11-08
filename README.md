@@ -1,13 +1,16 @@
-# vuechatroom
+# 项目介绍
 微言聊天室基于前后端分离，项目采用 SpringBoot+Vue 开发，当前项目是系统的Vue前端SPA工程
+
+后端工程：
+
 ## 前端技术栈
-1.Vue
-2.ElementUI
-3.axios
-4.vue-router
-5.Vuex
-6.WebSocket
-7.vue-cli4
+1. Vue
+2. ElementUI
+3. axios
+4. vue-router
+5. Vuex
+6. WebSocket
+7. vue-cli4
 
 ## Project setup
 ```
@@ -41,7 +44,7 @@ npm run build
 
 ## 文档 
 
-- [1.前端Vue的环境配置与全局方法封装](1.前端Vue的环境配置与全局方法封装)  
+- [1.前端Vue的环境配置与全局方法封装](https://github.com/JustCoding-Hai/subtlechat-vue/wiki/1.前端Vue的环境配置与全局方法封装)  
 - [2.聊天页面组件引入与环境配置](2.聊天页面组件引入与环境配置)  
 - [3.使用websocket实现群聊](3.使用websocket实现群聊)  
 - [ 4.解决页面刷新vuex的state清空问题]( 4.解决页面刷新vuex的state清空问题)  

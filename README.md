@@ -45,13 +45,13 @@ npm run build
 ## 文档 
 
 - [1.前端Vue的环境配置与全局方法封装](https://github.com/JustCoding-Hai/subtlechat-vue/wiki/1.前端Vue的环境配置与全局方法封装)  
-- [2.聊天页面组件引入与环境配置](2.聊天页面组件引入与环境配置)  
-- [3.使用websocket实现群聊](3.使用websocket实现群聊)  
-- [ 4.解决页面刷新vuex的state清空问题]( 4.解决页面刷新vuex的state清空问题)  
-- [5.重启服务器自动跳转到登陆页](5.重启服务器自动跳转到登陆页)  
-- [6.修改elementui的el-popover弹框的样式](6.修改elementui的el-popover弹框的样式)  
-- [7.emoji表情发送](7.emoji表情发送)  
-- [8.vue前端遇到的问题](8.vue前端遇到的问题)  
+- [2.聊天页面组件引入与环境配置](https://github.com/JustCoding-Hai/subtlechat-vue/wiki/2.聊天页面组件引入与环境配置)  
+- [3.使用websocket实现群聊](https://github.com/JustCoding-Hai/subtlechat-vue/wiki/3.使用websocket实现群聊)  
+- [ 4.解决页面刷新vuex的state清空问题](https://github.com/JustCoding-Hai/subtlechat-vue/wiki/4.解决页面刷新vuex的state清空问题)  
+- [5.重启服务器自动跳转到登陆页](https://github.com/JustCoding-Hai/subtlechat-vue/wiki/5.重启服务器自动跳转到登陆页)  
+- [6.修改elementui的el-popover弹框的样式](https://github.com/JustCoding-Hai/subtlechat-vue/wiki/6.修改elementui的el-popover弹框的样式)  
+- [7.emoji表情发送](https://github.com/JustCoding-Hai/subtlechat-vue/wiki/7.emoji表情发送)  
+- [8.vue前端遇到的问题](https://github.com/JustCoding-Hai/subtlechat-vue/wiki/8.vue前端遇到的问题)  
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).

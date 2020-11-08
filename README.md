@@ -1,11 +1,20 @@
 # vuechatroom
+微言聊天室基于前后端分离，项目采用 SpringBoot+Vue 开发，当前项目是系统的Vue前端SPA工程
+## 前端技术栈
+1.Vue
+2.ElementUI
+3.axios
+4.vue-router
+5.Vuex
+6.WebSocket
+7.vue-cli4
 
 ## Project setup
 ```
 npm install
 ```
 
-### 环境配置
+## 环境配置
 ```
 #安装element-ui
 npm i element-ui -S  
@@ -20,17 +29,26 @@ npm install sass-loader --save-dev
 cnpm install node-sass --save-dev
 ```
 
-### Compiles and hot-reloads for development 运行项目
+## Compiles and hot-reloads for development 运行项目
 ```
 npm run serve
 ```
 
-### Compiles and minifies for production打包项目
+## Compiles and minifies for production打包项目
 ```
 npm run build
 ```
 
+## 文档 
 
+- [1.前端Vue的环境配置与全局方法封装](1.前端Vue的环境配置与全局方法封装)  
+- [2.聊天页面组件引入与环境配置](2.聊天页面组件引入与环境配置)  
+- [3.使用websocket实现群聊](3.使用websocket实现群聊)  
+- [ 4.解决页面刷新vuex的state清空问题]( 4.解决页面刷新vuex的state清空问题)  
+- [5.重启服务器自动跳转到登陆页](5.重启服务器自动跳转到登陆页)  
+- [6.修改elementui的el-popover弹框的样式](6.修改elementui的el-popover弹框的样式)  
+- [7.emoji表情发送](7.emoji表情发送)  
+- [8.vue前端遇到的问题](8.vue前端遇到的问题)  
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).

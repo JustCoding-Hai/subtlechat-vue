@@ -23,6 +23,7 @@ npm install
 ```
 
 ## 环境配置
+指定包下载
 ```
 #安装element-ui
 npm i element-ui -S  

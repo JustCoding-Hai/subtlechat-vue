@@ -58,6 +58,9 @@ npm run build
 - [7.emoji表情发送](https://github.com/JustCoding-Hai/subtlechat-vue/wiki/7.emoji表情发送)  
 - [8.vue前端遇到的问题](https://github.com/JustCoding-Hai/subtlechat-vue/wiki/8.vue前端遇到的问题)  
 
+## 参考
+https://github.com/is-liyiwei/vue-Chat-demo
+
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
 

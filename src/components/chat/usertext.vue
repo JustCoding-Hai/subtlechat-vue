@@ -11,7 +11,7 @@
       </el-popover>
     <el-upload
             class="upload-btn"
-            action="/file"
+            action="/ossFileUpload?module=group-chat"
             :before-upload="beforeAvatarUpload"
             :on-success="imgSuccess"
             :on-error="imgError"

@@ -33,8 +33,8 @@
     data(){
       return{
         loginForm:{
-           username:'admin',
-           password:123,
+           username:'',
+           password:'',
            mailCode:''
         },
         checked:true,

@@ -1,6 +1,6 @@
 import  Vue from 'vue'
 import  Vuex from 'vuex'
-import {getRequest} from "../utils/api";
+import {getRequest, postRequest} from "../utils/api";
 import SockJS from '../utils/sockjs'
 import  '../utils/stomp'
 import { Notification } from 'element-ui';
@@ -196,6 +196,9 @@ const store =  new Vuex.Store({
   }
 })
 
+/**
+ * 监听state.sessions，有变化就重新保存到local Storage中chat-session中
+ */
 store.watch(function (state) {
   return state.sessions
 },function (val) {

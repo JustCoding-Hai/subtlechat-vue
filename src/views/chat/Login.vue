@@ -41,7 +41,7 @@
         </el-form-item>
         <el-form-item label="用户头像：" :label-width="formLabelWidth">
           <el-upload
-                  action="/file"
+                  action="/ossFileUpload?module=group-chat"
                   ref="upload"
                   list-type="picture-card"
                   :class="{disabled:uploadDisabled}"
@@ -120,8 +120,8 @@
       };
       return{
         loginForm:{
-           username:'huang',
-           password:123,
+           username:'',
+           password:'',
            code:''
         },
         verifyCode:'/verifyCode',
@@ -140,7 +140,7 @@
           username:'',
           password:'',
           checkPass:'',
-          userProfile:'',
+          userProfile:'default_head.jpg',
         },
         registerRules: {
           nickname: [

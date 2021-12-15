@@ -50,6 +50,13 @@ export default {
   ]),
   methods: {
     addMessageByClick(){
+      if(!this.content || this.content.match(/^[ ]*$/)) {
+        this.$message({
+          showClose: true,
+          message: '不能发送空白信息'
+        });
+        return;
+      }
       let msgObj=new Object();
       msgObj.content=this.content;
       msgObj.messageTypeId=1;

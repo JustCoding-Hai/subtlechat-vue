@@ -16,12 +16,12 @@
 </template>
 
 <script>
-  import card from '../../components/chat/card'
+  import card from '../../components/chat/card.vue'
   import list from '../../components/chat/list.vue'
   import message from '../../components/chat/message.vue'
   import usertext from '../../components/chat/usertext.vue'
-  import toolbar from "../../components/chat/toolbar";
-  import chattitle from "../../components/chat/chattitle"
+  import toolbar from "../../components/chat/toolbar.vue";
+  import chattitle from "../../components/chat/chattitle.vue"
 
   export default {
     name: 'ChatRoom',

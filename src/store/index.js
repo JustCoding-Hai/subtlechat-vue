@@ -1,11 +1,9 @@
-import  Vue from 'vue'
 import  Vuex from 'vuex'
 import {getRequest, postRequest} from "../utils/api";
 import SockJS from '../utils/sockjs'
 import  '../utils/stomp'
-import { Notification } from 'element-ui';
+import { ElNotification as Notification } from 'element-plus';
 
-Vue.use(Vuex)
 
 const now = new Date();
 

@@ -3,6 +3,7 @@ import {createApp} from 'vue'
 import router from './router'
 import ElementPlus from 'element-plus';
 import store from './store/index';
+import 'element-plus/dist/index.css'
 import 'font-awesome/css/font-awesome.min.css'
 
 
@@ -47,6 +48,6 @@ app.config.globalProperties.getRequest=getRequest;
 app.config.globalProperties.putRequest=putRequest;
 app.config.globalProperties.deleteRequest=deleteRequest;
 
-app.config.config.productionTip = false
+// app.config.config.productionTip = false
 
 app.mount('#app')

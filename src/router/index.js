@@ -1,10 +1,10 @@
-import Login from "../views/chat/Login";
-import ChatRoom from "../views/chat/ChatRoom";
-import AdminLogin from "../views/admin/AdminLogin";
-import Home from "../views/admin/Home";
-import UserInfo from "../views/admin/UserInfo";
-import GroupChatRecord from "../views/admin/GroupChatRecord";
-import PrivateChatRecord from "../views/admin/PrivateChatRecord";
+import Login from "../views/chat/Login.vue";
+import ChatRoom from "../views/chat/ChatRoom.vue";
+import AdminLogin from "../views/admin/AdminLogin.vue";
+import Home from "../views/admin/Home.vue";
+import UserInfo from "../views/admin/UserInfo.vue";
+import GroupChatRecord from "../views/admin/GroupChatRecord.vue";
+import PrivateChatRecord from "../views/admin/PrivateChatRecord.vue";
 import { createRouter } from "vue-router";
 import { createWebHistory } from "vue-router";
 
